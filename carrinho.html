@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - Viovanny Ateliê</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">VIOVANNY</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="submenu">
+                    <a href="produtos.html">Produtos</a>
+                    <ul class="submenu-content">
+                        <li><a href="#aneis">Anéis</a></li>
+                        <li><a href="#brincos">Brincos</a></li>
+                        <li><a href="#presilhas">Presilhas</a></li>
+                        <li><a href="#tiaras">Tiaras</a></li>
+                        <li><a href="#bolsas">Bolsas</a></li>
+                    </ul>
+                </li>
+                <li><a href="carrinho.html">Carrinho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="carrinho">
+            <h2>Seu Carrinho</h2>
+            <div class="itens-carrinho">
+                <!-- Itens do carrinho serão inseridos aqui via JavaScript -->
+            </div>
+            <div class="total">
+                <h3>Total: R$ <span id="total-carrinho">0.00</span></h3>
+                <button class="finalizar">Finalizar Compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p> Viovanny Ateliê © </p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
